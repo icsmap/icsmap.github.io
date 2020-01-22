@@ -1,13 +1,14 @@
 body{
     width: 100%; height: 100%;
     margin: 0; padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     width: 100%; height: 80px;
     margin: 0; padding: 0;
     background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .logo{
     width: 65px; height: 70px;
@@ -39,6 +40,7 @@ li a{
 }
 .menu p:hover{
     border: 1px solid rgb(0, 0, 255);
+    background-color: rgba(0, 0, 255, 0.13);
     transition: 0.2s ease;
     border-radius: 8px;
 }
@@ -86,4 +88,9 @@ li a{
     background-color: rgb(30, 135, 177);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);    
     transform: translateY(3px);
+}
+.pops{
+    font-size: 11px; 
+    text-decoration: none;
+    color: whitesmoke !important; 
 }
